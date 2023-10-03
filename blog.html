@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Blog</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Custom styles -->
+    <style>
+        body {
+            padding-top: 56px;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .jumbotron {
+            background-color: #f8f9fa;
+        }
+
+        .blog-post {
+            margin-bottom: 30px;
+        }
+
+        /* Add your custom styles here */
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Blog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#posts">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header - Jumbotron -->
+    <header class="jumbotron my-4">
+        <div class="container">
+            <h1 class="display-3">Welcome to Your Blog</h1>
+            <p class="lead">Discover the latest articles and insights.</p>
+        </div>
+    </header>
+
+    <!-- Blog Posts Section -->
+    <section id="posts" class="container">
+        <h2 class="text-center mb-4">Latest Posts</h2>
+        <!-- Individual blog post components -->
+        <div class="blog-post">
+            <h3>Post Title 1</h3>
+            <p class="text-muted">Published on Date</p>
+            <p>Post content goes here. You can write your articles in this section.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+        <!-- Add more blog posts as needed -->
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Categories</h2>
+            <!-- Add your category links or buttons here -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="btn btn-secondary btn-block mb-2">Category 1</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="btn btn-secondary btn-block mb-2">Category 2</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="btn btn-secondary btn-block mb-2">Category 3</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="text-center mb-4">About Us</h2>
+        <p>Your blog's story and mission go here. Share information about your team, values, and what makes your blog
+            unique.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <!-- Add a contact form here -->
+            </div>
+            <div class="col-lg-6">
+                <!-- Contact information or location map -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
